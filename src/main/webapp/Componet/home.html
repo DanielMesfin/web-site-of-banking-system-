@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>your home page is loading </title>
+    <link rel="stylesheet" href="../Style/home.css">
+</head>
+<body>
+<h1>Your Tasks Are Below  </h1>
+ <div class="registration">
+    <form action="/EthioBank/TransactionDataServlate " method="post">
+    <label>Enter The  Balance :<input type="number"  placeholder="Enter The Amount of Money :" name="amountOfMoney"></label>
+    
+    <table>
+    <tr><td> <label>Transaction Type : </label></td><td><input type="radio"name="tType" value="Withdrawal"> </td><td>withdrawal</td></tr>
+    <tr><td></td><td> <input type="radio"name="tType" value="Deposit"></td><td>Deposit</td></tr>
+    <tr><td></td><td> <input type="radio"name="tType" value="Transfare"></td><td>Transfer</td></tr>
+    </table>
+     <div class="btn">  
+        <button class="sent" type="submit" onClick="checkPassword()">Submit</button>
+        <button class="cancel" type="reset">Clear</button>
+    </div>
+    </form>
+    <div class="copy">
+    <h2>&copy EthioBank@software</h2>
+    <p>We Hope you Enjoy By Our service ,Thank You</p>
+</div>
+</div>
+<script type="text/javascript" src="index.js"></script>
+</body>
+</html>

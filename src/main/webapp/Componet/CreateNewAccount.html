@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create new account </title>
+    <link rel="stylesheet" href="../Style/index.css">
+</head>
+<body>
+<h1>Create New Account By Filling This  Form </h1>
+ <div class="registration">
+    <form action="/EthioBank/CreateAccount" method="post">
+    <label>Full Name :<input type="text"  placeholder="Enter Your Full Name Here :" name="fullName" autocomplete="false"></label>
+    <label>Account Number : <input type="text" placeholder="Enter Your Account Number:" name="accountNumber" autocomplete="false"></label>
+    <label>Phone Number : <input type=text" placeholder="Enter Your Phone Number :" name="phoneNumber" autocomplete="false"></label>
+    <label>Capital: <input type="text" placeholder="Enter your Intial Deposit" name="deposit"></label>
+    <label>Password : <input type="password"  id= "password" placeholder="Enter Your Password Here :" name="password"></label> 
+    <label>Confirm Password : <input type="password" id="cPassword" placeholder="Confirm Your password Here :" name="cPassword"></label>  
+    <div class="btn">
+        <button class="sent" type="submit" onClick="checkPassword()">Submit</button>
+        <button class="cancel" type="reset">Clear</button>
+    </div>
+    </form>
+    <div class="copy">
+    <h2>&copy EthioBank@software</h2>
+    <p>We Hope you Enjoy By Our service ,Thank You</p>
+</div>
+</div>
+<script type="text/javascript" src="index.js"></script>
+</body>
+</html>
